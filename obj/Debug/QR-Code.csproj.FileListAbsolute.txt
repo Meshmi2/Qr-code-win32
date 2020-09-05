@@ -1,0 +1,14 @@
+C:\Users\meshmi\source\repos\QR-Code\bin\Debug\QR-Code.exe.config
+C:\Users\meshmi\source\repos\QR-Code\bin\Debug\QR-Code.exe
+C:\Users\meshmi\source\repos\QR-Code\bin\Debug\QR-Code.pdb
+C:\Users\meshmi\source\repos\QR-Code\obj\Debug\QR-Code.csprojAssemblyReference.cache
+C:\Users\meshmi\source\repos\QR-Code\obj\Debug\QR_Code.Form1.resources
+C:\Users\meshmi\source\repos\QR-Code\obj\Debug\QR_Code.Properties.Resources.resources
+C:\Users\meshmi\source\repos\QR-Code\obj\Debug\QR-Code.csproj.GenerateResource.cache
+C:\Users\meshmi\source\repos\QR-Code\obj\Debug\QR-Code.csproj.CoreCompileInputs.cache
+C:\Users\meshmi\source\repos\QR-Code\obj\Debug\QR-Code.exe
+C:\Users\meshmi\source\repos\QR-Code\obj\Debug\QR-Code.pdb
+C:\Users\meshmi\source\repos\QR-Code\bin\Debug\QR-Code.exe.manifest
+C:\Users\meshmi\source\repos\QR-Code\bin\Debug\QR-Code.application
+C:\Users\meshmi\source\repos\QR-Code\obj\Debug\QR-Code.exe.manifest
+C:\Users\meshmi\source\repos\QR-Code\obj\Debug\QR-Code.application
