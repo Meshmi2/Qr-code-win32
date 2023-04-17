@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="QR-Code.exe" version="1.1.0.0" publicKeyToken="32b0ca70ffe77b7a" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="QR-Code" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="QR-Code.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Opzioni manifesto Controllo dell'account utente
+          Se si vuole modificare il livello di Controllo dell'account utente di Windows, sostituire il
+          nodo requestedExecutionLevel con uno dei seguenti.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Se si vuole usare Virtualizzazione file system e registro di sistema per la 
+         compatibilità con le versioni precedenti, eliminare il nodo requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="QR-Code.exe" size="104944">
+      <assemblyIdentity name="QR-Code" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>YO8t8jd8ZXKmUZjxK8M0DmaAPrO+vorEEvz8Kzdo/io=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="ico files\ciao.ico" size="93062">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>23obtTQp/580RSDpwrKhhfm87i17z5ra+AbYgQ7UYOk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="QR-Code.exe.config" size="184">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>FihlZtVNgcNyH37Pf0Jtll3jZOm+L55ijXNjtoS2/mo=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-U4AGG8D\meshmi2" issuerKeyHash="9fc376e6079c58b1b42fa77bb4b6d2dd0342d33c" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>waQhC1ASv0GzrF85dyh1nHpQTFZzFvpDFAID+qCxOk8=</DigestValue></Reference></SignedInfo><SignatureValue>jwcbA4jjAVV7jwOM32ZeUipRGu0HUBG2y5nHKVnHuiFtIvRn+HAZin+OvUa13/di421wF24seudWfrurTdlDQI0koF4pZ4yV051H4cdrSzXKpRzeiNWhBLXcb1ppm5qqP69ZmJuMHSvDQsBMhlueHksGUSgx8MVxaSq8ujNr9EM=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>0OjtOWpkwVnIBQO1PiaQ9YwzC+jHEUb8nkuY9P7sGC8oAdG8HkXGpLzYBDPgYqkgjXIlazyoxhF5+WezOmkDuibl0ViUxCCtMmcTWlSa+5RJzCZ3mvMIE65ksVJ2WNHzGLO96Hd/dP+Onlz4fnjdpoLJoT3wD0LCOKBCbmAZGMU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="4f3ab1a0fa03021443fa1673564c507a9c752877395facb341bf12500b21a4c1" Description="" Url=""><as:assemblyIdentity name="QR-Code.exe" version="1.1.0.0" publicKeyToken="32b0ca70ffe77b7a" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-U4AGG8D\meshmi2</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>5nqNADYD+ozxkkP+67eh1KnQZc6Y2UHJ7rwV8T4+3TE=</DigestValue></Reference></SignedInfo><SignatureValue>IV6zkXlNlCQdPrLe68kBi+P/KetF51BwoDuaVe2qtXFts4DWOHKBPJIJuMRijbexANn379CukaybRzbhv9XGzbGB2OiUacTRit6IXOKp8JKT+eehVV5YJ8eFtho9Tag0v0d1M7/yDOaSmye8R7sN/sH9onQYi4Jh1Ki6Iz8HzvE=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>0OjtOWpkwVnIBQO1PiaQ9YwzC+jHEUb8nkuY9P7sGC8oAdG8HkXGpLzYBDPgYqkgjXIlazyoxhF5+WezOmkDuibl0ViUxCCtMmcTWlSa+5RJzCZ3mvMIE65ksVJ2WNHzGLO96Hd/dP+Onlz4fnjdpoLJoT3wD0LCOKBCbmAZGMU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB9TCCAV6gAwIBAgIQewFOCec43a1PZpTE+vwsKjANBgkqhkiG9w0BAQsFADA5MTcwNQYDVQQDHi4ARABFAFMASwBUAE8AUAAtAFUANABBAEcARwA4AEQAXABtAGUAcwBoAG0AaQAyMB4XDTIzMDQxNzA1MDYwMFoXDTI0MDQxNjExMDYwMFowOTE3MDUGA1UEAx4uAEQARQBTAEsAVABPAFAALQBVADQAQQBHAEcAOABEAFwAbQBlAHMAaABtAGkAMjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA0OjtOWpkwVnIBQO1PiaQ9YwzC+jHEUb8nkuY9P7sGC8oAdG8HkXGpLzYBDPgYqkgjXIlazyoxhF5+WezOmkDuibl0ViUxCCtMmcTWlSa+5RJzCZ3mvMIE65ksVJ2WNHzGLO96Hd/dP+Onlz4fnjdpoLJoT3wD0LCOKBCbmAZGMUCAwEAATANBgkqhkiG9w0BAQsFAAOBgQBCcA0ldQqYAkwWFkQt2mpyushg7UgQ8QrLtc5W0O9IIVPK2m2STNpMIITWQ6vdSlEHFp5WRVvSyBspM/mMpSTy0UNQw9uJi6uwehHdKZgg9b/DO3K5T5T8/sAa1/uyW8187F7eMc5JRcGAYRZmiNUeR6V9ywZbCU0zjgYsJ9BMfA==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
